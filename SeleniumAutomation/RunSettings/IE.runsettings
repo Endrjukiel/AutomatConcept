@@ -1,0 +1,12 @@
+<RunSettings>
+
+  <TestRunParameters>
+    <!-- End Points -->
+    <Parameter name="Browser" value="IE" />
+  </TestRunParameters>
+
+  <MSTest>
+    <DeploymentEnabled>False</DeploymentEnabled>
+  </MSTest>
+
+</RunSettings>

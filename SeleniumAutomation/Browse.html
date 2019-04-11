@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        //,top=500, left=500, width=400, height=400"
+        // < ![CDATA[
+        function newBrwWin() { window.open("http://www.google.com", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes"); }
+        // ]]&gt;</script>
+
+    <script>
+        // < ![CDATA[
+        function newBrwTab() { window.open("http://www.gmail.com"); }
+        // ]]&gt;</script>
+    <script>
+        // < ![CDATA[
+        function newAlert() { alert("Welcome for selenium automation world"); }
+        // ]]&gt;</script>
+    <form>
+        <!-- Select a file: <input id="choose" type="file" name="img"> -->
+        <button title="used open new winddow" id="button1" onclick="newBrwWin()">New Browser Window</button>
+        <button onclick="newBrwTab()">New Browser Tab</button>
+
+        <button id="alert" onclick="newAlert()">Alert Box Demo</button>
+        <select id="menulist">
+            <option value="1">Dosa</option>
+            <option value="2">Pongal</option>
+            <option value="3">Idli</option>
+        </select>
+        <br /><br /><br />
+        <iframe id="frame1" src=".\Browse - Copy.html"> </iframe>
+        <br /><br /><br />
+        Select a file: <input id="choose" type="file" name="img">
+        <br /><br /><br />
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.gmail.com">GOOGLE</a>
+        <br /><br /><br />
+        <!-- Dynamic Element Locators-->
+        <button value="Btn1" onclick="newAlert()" id="Submit-901">Btn1</button>
+        <button value="Btn2" id="Submit-902" >Btn2</button>
+        <button value="Btn3" id="Submit-903" >Btn3</button>
+    </form>
+    <br/>
+    
+</body>
+</html>
