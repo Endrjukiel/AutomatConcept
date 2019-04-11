@@ -44,8 +44,8 @@ namespace SeleniumAutomation
         public void TC003_NavigateGmail_Chrome()
         {
             lp.GotoPage("https://www.gmail.com/");   //lp.GotoPage("https://mail.google.com/mail");
-            lp.SetUserFields_loginPage("endrjukiller@gmail.com");
-            lp.SetPwdFields_loginPage("166666");
+            lp.SetUserFields_loginPage("test");
+            lp.SetPwdFields_loginPage("1234");
             //BrowserHelpers.CloseDriver();?8
         }
 
